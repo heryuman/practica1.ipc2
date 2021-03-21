@@ -1,0 +1,129 @@
+h2{
+	font-family: verdana;
+}
+h3{
+	font-family: verdana;
+}
+
+h4{
+	font-family: verdana;
+}
+
+.A{
+ 
+ background-color: #32cd32;
+ color: #ffffff;
+ padding-top:3px;
+ padding-left: 3px;
+ border-radius: 10px;
+
+
+}
+.A2{
+ 
+ background-color: red;
+ color: #ffffff;
+ padding-top:3px;
+ padding-left: 3px;
+ border-radius: 10px;
+
+
+}
+
+.A3{
+ 
+ background-color: blue;
+ color: #ffffff;
+ padding-top:3px;
+ padding-left: 3px;
+ border-radius: 10px;
+
+
+}
+.estiloImagen{
+ width: 300px;
+ height:200px;	
+ border-radius: 80px;
+ margin-left:10%; 
+}
+
+
+.divP{
+	width: 480px;
+
+	margin-left:25%;
+	margin-bottom:1%; 
+	
+    
+}
+
+#flotante{  /*padre*/
+	overflow: hidden;
+	width: 100%;
+
+}
+#flotante .A, #flotante .B{  /*hijos*/
+	float: left;
+	
+}
+
+#cont2{  /*padre*/
+	overflow: hidden;
+	width: 100%;
+
+}
+#cont2 .A2, #flotante .B2{  /*hijos*/
+	float: left;
+	
+}
+
+#cont3{  /*padre*/
+	overflow: hidden;
+	width: 100%;
+
+}
+#cont3 .A3, #flotante .B3{  /*hijos*/
+	float: left;
+	
+}
+body{
+
+	background-color: #f4a460;
+}
+li,p{
+	font-family: verdana;
+
+}
+a:focus {
+  border-bottom: 1px solid;
+ 
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: yellow;
+}
+
+a:active {
+  background: #00bfff;
+  color: #CDFEAA;
+}
+
+p {
+  line-height: 1.4;
+  padding-bottom: 10;
+}
+ .boton_personalizado{
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1e90ff;
+    border-radius: 6px;
+    border: 2px solid #0016b0;
+    opacity:0.7;
+    padding-right: auto;
+    padding-left: auto;
+  
+  }
